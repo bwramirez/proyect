@@ -45,9 +45,9 @@ $(document).ready(function() {
         $('#tabla3').show(250);
     });
 
+    $('#addbs').prop('checked');
 
-
-    $("#addcap input[type=checkbox]").click(function() {
+    $("#addcap input:checkbox").click(function() {
         $("#agmateriales").find("." + $(this).attr("name")).toggle();
 
     });
